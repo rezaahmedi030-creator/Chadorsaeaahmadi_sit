@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="fa"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>چادر خبرنگاری مشکی - چادر سرای احمدی</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600&amp;family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#36352e",
+                        "on-error": "#690005",
+                        "secondary": "#ecc246",
+                        "surface-variant": "#36352e",
+                        "outline": "#8e9192",
+                        "inverse-surface": "#e7e2d8",
+                        "primary-fixed-dim": "#c9c6c5",
+                        "inverse-primary": "#5f5e5e",
+                        "on-tertiary-container": "#7a7878",
+                        "on-secondary-fixed-variant": "#584400",
+                        "surface-container-high": "#2b2a24",
+                        "on-secondary-container": "#352800",
+                        "on-secondary-fixed": "#241a00",
+                        "on-background": "#e7e2d8",
+                        "on-surface": "#e7e2d8",
+                        "on-surface-variant": "#c4c7c7",
+                        "outline-variant": "#444748",
+                        "background": "#14130e",
+                        "secondary-fixed-dim": "#ecc246",
+                        "on-primary-fixed": "#1c1b1b",
+                        "surface-dim": "#14130e",
+                        "tertiary-container": "#080808",
+                        "secondary-container": "#b18c09",
+                        "on-tertiary-fixed": "#1c1b1b",
+                        "surface": "#14130e",
+                        "on-secondary": "#3d2e00",
+                        "on-tertiary-fixed-variant": "#474646",
+                        "secondary-fixed": "#ffe08e",
+                        "surface-container-lowest": "#0f0e09",
+                        "on-error-container": "#ffdad6",
+                        "on-primary-container": "#7a7878",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "tertiary-fixed": "#e5e2e1",
+                        "primary": "#c9c6c5",
+                        "inverse-on-surface": "#32302a",
+                        "surface-container": "#21201a",
+                        "surface-container-low": "#1d1c16",
+                        "surface-bright": "#3b3932",
+                        "on-primary-fixed-variant": "#474646",
+                        "tertiary": "#c8c6c5",
+                        "error": "#ffb4ab",
+                        "error-container": "#93000a",
+                        "primary-container": "#080808",
+                        "on-tertiary": "#313030",
+                        "surface-tint": "#c9c6c5",
+                        "primary-fixed": "#e5e2e1",
+                        "on-primary": "#313030"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-lg": "4rem",
+                        "container-max": "1440px",
+                        "margin-desktop": "80px",
+                        "stack-sm": "1rem",
+                        "margin-mobile": "20px",
+                        "gutter": "24px",
+                        "stack-md": "2rem"
+                    },
+                    "fontFamily": {
+                        "label-caps": ["Vazirmatn", "Be Vietnam Pro"],
+                        "headline-md": ["Vazirmatn", "Libre Caslon Text"],
+                        "headline-sm": ["Vazirmatn", "Libre Caslon Text"],
+                        "display-lg-mobile": ["Vazirmatn", "Libre Caslon Text"],
+                        "body-md": ["Vazirmatn", "Be Vietnam Pro"],
+                        "body-lg": ["Vazirmatn", "Be Vietnam Pro"],
+                        "display-lg": ["Vazirmatn", "Libre Caslon Text"]
+                    },
+                    "fontSize": {
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "1.4", "fontWeight": "400" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "300" }],
+                        "display-lg": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Vazirmatn', sans-serif; /* Fallback for Persian, overriding config for readability in RTL */ }
+        .gold-border-focus:focus-within { border-color: #C9A227; }
+        .glass-nav { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-secondary/30 selection:text-secondary">
+<!-- TopNavBar -->
+<nav class="docked full-width top-0 sticky border-b border-outline-variant bg-background/80 glass-nav z-50">
+<div class="flex justify-between items-center w-full px-margin-desktop py-6 max-w-container-max mx-auto md:px-margin-desktop px-margin-mobile">
+<!-- Brand -->
+<a class="font-headline-md text-headline-md text-secondary tracking-tighter shrink-0 flex items-center gap-3 group" href="#">
+<!-- Placeholder for logo image if needed, using text for now based on JSON -->
+<span class="font-headline-sm text-headline-sm">چادر سرای احمدی</span>
+</a>
+<!-- Desktop Links -->
+<ul class="hidden md:flex gap-8 items-center">
+<li><a class="text-on-background/70 hover:text-secondary hover:opacity-90 transition-all duration-300 font-label-caps text-label-caps uppercase" href="#">خانه</a></li>
+<li><a class="text-secondary font-bold relative after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:bg-secondary after:rounded-full font-label-caps text-label-caps uppercase hover:text-secondary hover:opacity-90 transition-all duration-300" href="#">محصولات</a></li>
+<li><a class="text-on-background/70 hover:text-secondary hover:opacity-90 transition-all duration-300 font-label-caps text-label-caps uppercase" href="#">مدل‌ها</a></li>
+<li><a class="text-on-background/70 hover:text-secondary hover:opacity-90 transition-all duration-300 font-label-caps text-label-caps uppercase" href="#">درباره ما</a></li>
+<li><a class="text-on-background/70 hover:text-secondary hover:opacity-90 transition-all duration-300 font-label-caps text-label-caps uppercase" href="#">راهنمای سفارش</a></li>
+<li><a class="text-on-background/70 hover:text-secondary hover:opacity-90 transition-all duration-300 font-label-caps text-label-caps uppercase" href="#">تماس با ما</a></li>
+</ul>
+<!-- Actions -->
+<div class="flex items-center gap-4 shrink-0">
+<button aria-label="Search" class="text-on-background/70 hover:text-secondary transition-colors p-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">search</span>
+</button>
+<button aria-label="Shopping Bag" class="text-on-background/70 hover:text-secondary transition-colors p-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">shopping_bag</span>
+</button>
+<a class="hidden md:inline-flex items-center justify-center bg-tertiary-container border border-secondary text-secondary px-6 py-2 rounded font-label-caps text-label-caps uppercase hover:bg-secondary/10 transition-colors duration-300" href="#">
+                    سفارش دهید
+                </a>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-on-background/70 hover:text-secondary p-2" id="mobile-menu-btn">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- SideNavBar (Mobile) -->
+<div class="fixed inset-y-0 right-0 w-80 bg-surface-container-low border-l border-outline-variant shadow-xl z-[60] transform translate-x-full transition-transform duration-300 ease-in-out md:hidden flex flex-col py-stack-md px-6" id="mobile-nav">
+<div class="flex items-center justify-between mb-8">
+<div class="font-headline-sm text-headline-sm text-secondary">
+<div>چادر سرای احمدی</div>
+<div class="text-sm text-on-surface-variant font-body-md">چادر اصیل ایرانی</div>
+</div>
+<button class="text-on-surface-variant hover:text-secondary p-2" id="close-mobile-nav">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<nav class="flex-1 overflow-y-auto no-scrollbar space-y-2 font-body-lg text-body-lg">
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high transition-colors rounded-lg" href="#">
+<span class="material-symbols-outlined">home</span>
+                خانه
+            </a>
+<a class="flex items-center gap-4 bg-secondary-container/20 text-secondary rounded-lg p-4 hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined">styler</span>
+                محصولات
+            </a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high transition-colors rounded-lg" href="#">
+<span class="material-symbols-outlined">photo_camera</span>
+                مدل‌ها
+            </a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high transition-colors rounded-lg" href="#">
+<span class="material-symbols-outlined">info</span>
+                درباره ما
+            </a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high transition-colors rounded-lg" href="#">
+<span class="material-symbols-outlined">help_center</span>
+                راهنمای سفارش
+            </a>
+<a class="flex items-center gap-4 text-on-surface-variant p-4 hover:bg-surface-container-high transition-colors rounded-lg" href="#">
+<span class="material-symbols-outlined">mail</span>
+                تماس با ما
+            </a>
+</nav>
+<div class="mt-auto pt-8 border-t border-outline-variant">
+<a class="flex items-center justify-center gap-2 bg-tertiary-container border border-secondary text-secondary w-full py-3 rounded-lg hover:bg-secondary/10 transition-colors font-label-caps text-label-caps uppercase mb-4" href="https://t.me/chadorahmadibot">
+<span class="material-symbols-outlined">smart_toy</span>
+                ثبت سفارش در تلگرام
+            </a>
+</div>
+</div>
+<!-- Overlay for mobile nav -->
+<div class="fixed inset-0 bg-black/50 z-50 hidden md:hidden" id="mobile-nav-overlay"></div>
+<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+<!-- Breadcrumbs -->
+<nav aria-label="Breadcrumb" class="flex text-sm text-on-surface-variant mb-8 font-body-md">
+<ol class="inline-flex items-center space-x-1 md:space-x-3 space-x-reverse">
+<li class="inline-flex items-center">
+<a class="inline-flex items-center hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px] ml-1">home</span>
+                        صفحه اصلی
+                    </a>
+</li>
+<li>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[18px] mx-1">chevron_left</span>
+<a class="hover:text-secondary transition-colors ml-1 md:ml-2" href="#">محصولات</a>
+</div>
+</li>
+<li aria-current="page">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[18px] mx-1">chevron_left</span>
+<span class="text-on-surface ml-1 md:ml-2">چادر خبرنگاری</span>
+</div>
+</li>
+</ol>
+</nav>
+<!-- Product Bento Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Gallery (Left Column on Desktop, Top on Mobile) -->
+<div class="lg:col-span-7 flex flex-col-reverse md:flex-row gap-4">
+<!-- Thumbnails -->
+<div class="flex md:flex-col gap-4 overflow-x-auto md:overflow-visible no-scrollbar pb-2 md:pb-0 w-full md:w-24 shrink-0">
+<button class="w-20 md:w-24 aspect-[3/4] rounded border border-secondary overflow-hidden shrink-0 relative focus:outline-none focus:ring-2 focus:ring-secondary/50 transition-all">
+<img class="w-full h-full object-cover" data-alt="A detailed close-up shot of luxurious deep black chador fabric, specifically Neda fabric, showing its subtle sheen and draping qualities against a dark, minimalist background. The lighting is soft and cinematic, emphasizing the high-end luxury e-commerce aesthetic with subtle gold accents in the UI context." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPbuOfX6qBPYH3N34WilgwTubGUZuC2f4XdRp0INYSJaQ0zpcGsPvqpn-DCWTYv01BBMV7yaom6SaGDaCd-PRdWAbCl5Q6-zyngp6mPIEsC9q6zUHs26GFefMbnQgeo7FYyoUeuSp3fTzoy6xzAu7iS-fnyezIk0BWWLIptxEwHCXnwLwpPfPqKmxdeUpaDWNQiNUiSss_eDqMEFi3NUWIUR_5SSjup_9PZ-Y_QVb7KClmCJ9HQCUh"/>
+<div class="absolute inset-0 bg-secondary/10"></div>
+</button>
+<button class="w-20 md:w-24 aspect-[3/4] rounded border border-outline-variant hover:border-secondary/50 overflow-hidden shrink-0 relative focus:outline-none transition-all">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100" data-alt="A cinematic full-length shot of a model wearing a premium black reporter chador, standing in a spacious, modern, dimly lit gallery setting. The lighting is dramatic, highlighting the elegant fall of the fabric. The overall mood is authoritative and luxurious, fitting a high-end Islamic fashion house." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5FfFlbFcK26iuhvk3py_zjFLaFvKuOaALSYrHbyLEmx12oHJkz35FvF0iDEjD99eWd1vdxl11vl6rpDCPFXP8QfvBbMpt0b1-FAg4mywl96bRpn5YYWO3Jg91a9tMRsMuBqMvQn_bsPoOZkgLEJARsnLXoI2hg-xOrMqw7xPvjo6pZ98UdUUOdocRUYFcqq4xYGVx_94vOQmXwIJ2ydMNLPcI6hX0xqg7T6Zi9tURxnVBLnXJG-qd"/>
+</button>
+<button class="w-20 md:w-24 aspect-[3/4] rounded border border-outline-variant hover:border-secondary/50 overflow-hidden shrink-0 relative focus:outline-none transition-all">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100" data-alt="A detailed shot focusing on the sleeve and cuff of a high-quality black chador, showcasing the meticulous stitching and premium Neda fabric texture. The background is a deep, luxurious black, emphasizing minimalism and high-contrast, modern corporate style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_GWcUm3MPrdx8E8rIkkkQlcgXc_q5cCFufO9tz4_SFYK1hSmazfCJaAlOAgPgxYeAVNgKBp8WqBWegRMCjVr0amlTyzKdeB3clowMPcvElT0px2mYaTAyc-Z8EJTW1Dg-tDR1rjHJZDH7RfiWwt2GoWo78LfdVd_D0day7hIBybxV9LSSygwCjYb2x2P5_xP2L6p3fynDhzeTcCs6kIbzLtNYgMKEHYnZH6oPd2SDBWuepaAuDQbe"/>
+</button>
+<button class="w-20 md:w-24 aspect-[3/4] rounded border border-outline-variant hover:border-secondary/50 overflow-hidden shrink-0 relative focus:outline-none transition-all">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100" data-alt="A cinematic medium shot from behind of a woman wearing a luxurious black chador, highlighting the graceful movement and drape of the fabric. The setting is minimal with deep charcoal and black tones, illuminated by soft, sophisticated lighting that aligns with a premium fashion brand's identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzu8yV8rt8cxWEpRxEANN0ZSy3gFBM4S7_4Ho3h2ieIqbUOGNED2xlxEaG3feczzH46Dxz5sjkX8NRt8Tgz2Tjflkp3BcDyr14yAODYYa_g8SiGMHoHpMGYZyFR0rxl1UuVPYLax16BQCQ0UvY8iqASNFvGsy-pi3yx9qWEjeac3NdbcN-5KHl1Naa_DyAcguj2sUF1UgL_72_TOEGLhp8uUDFr0i3Meo11b1dccYOJKlenT6iruZe"/>
+</button>
+</div>
+<!-- Main Image -->
+<div class="flex-1 rounded-lg overflow-hidden relative bg-surface-container-high aspect-[3/4] md:aspect-auto h-auto md:h-[800px] group">
+<img class="w-full h-full object-cover" data-alt="A striking, high-end editorial photograph of a premium black reporter chador. The fabric cascades elegantly, catching subtle cinematic lighting that highlights its deep black hue and luxurious texture. The background is an expansive, minimalist dark grey/black void, creating a gallery-like focal point for the garment. The mood is exclusive, serene, and exquisitely crafted." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB73y9RYdLlWpaSy7ZvrLQx163PM9C991rZx_24XT0nr3xdp2LHbDwRAsx9MAno7l7nhwFRMMU9L6KY9lgzkt8pgMOWaNT8FcAq76_qEhVxE5_qiVEkRBitTEztb-auq6koj4fV1AZSF9KzqXEDWXDBtD-vhoSdoC-F2NH6EltfpCQJzwv89BWJFVdQyM6VGbDRSMu2DtpdtpqLGHUDt-ZDN7mflbadloW42zryT_e67biNCzz59i0h"/>
+<!-- Decorative Gold Accent -->
+<div class="absolute top-4 right-4 w-12 h-[1px] bg-secondary"></div>
+<div class="absolute top-4 right-4 w-[1px] h-12 bg-secondary"></div>
+<!-- Hotspot Example -->
+<div class="absolute top-1/3 left-1/4 group-hover:opacity-100 opacity-0 transition-opacity duration-300">
+<div class="w-4 h-4 bg-secondary rounded-full animate-ping absolute inset-0 opacity-50"></div>
+<div class="w-4 h-4 bg-secondary rounded-full relative z-10 border-2 border-background cursor-pointer"></div>
+</div>
+</div>
+</div>
+<!-- Product Details (Right Column) -->
+<div class="lg:col-span-5 flex flex-col pt-8 md:pt-0 pr-0 lg:pr-12">
+<!-- Status/Badges -->
+<div class="flex items-center gap-3 mb-4">
+<span class="px-3 py-1 text-xs font-label-caps tracking-widest uppercase border border-secondary text-secondary rounded-sm">موجود در انبار</span>
+<span class="px-3 py-1 text-xs font-label-caps tracking-widest uppercase bg-surface-container-highest text-on-surface-variant rounded-sm">پرفروش</span>
+</div>
+<!-- Title & Price -->
+<h1 class="font-headline-md text-headline-md text-on-surface mb-2 leading-tight">چادر خبرنگاری مشکی پارچه ندا</h1>
+<p class="font-body-lg text-on-surface-variant mb-6 text-xl">
+<span class="font-bold text-on-surface">۲,۸۵۰,۰۰۰</span> تومان
+                </p>
+<!-- Divider -->
+<hr class="border-outline-variant mb-8"/>
+<!-- Options -->
+<div class="space-y-6 mb-10">
+<!-- Fabric Type -->
+<div>
+<h3 class="font-label-caps text-label-caps text-on-surface-variant mb-3 uppercase">نوع پارچه</h3>
+<div class="flex flex-wrap gap-3">
+<button class="px-5 py-2 border border-secondary text-secondary rounded bg-secondary/5 font-body-md transition-colors">ندا (سوپر ژرژت)</button>
+<button class="px-5 py-2 border border-outline-variant text-on-surface-variant rounded hover:border-secondary/50 hover:text-on-surface transition-colors font-body-md">کرپ اسود</button>
+<button class="px-5 py-2 border border-outline-variant text-on-surface-variant rounded hover:border-secondary/50 hover:text-on-surface transition-colors font-body-md">حریر الاسود</button>
+</div>
+</div>
+<!-- Size -->
+<div>
+<div class="flex justify-between items-center mb-3">
+<h3 class="font-label-caps text-label-caps text-on-surface-variant uppercase">قد چادر (سانتی‌متر)</h3>
+<button class="text-sm text-secondary hover:underline font-body-md">راهنمای سایز</button>
+</div>
+<div class="grid grid-cols-4 gap-2">
+<button class="py-2 border border-outline-variant text-on-surface-variant rounded hover:border-secondary/50 hover:text-on-surface transition-colors font-body-md">۱۵۰</button>
+<button class="py-2 border border-secondary text-secondary rounded bg-secondary/5 font-body-md transition-colors">۱۵۵</button>
+<button class="py-2 border border-outline-variant text-on-surface-variant rounded hover:border-secondary/50 hover:text-on-surface transition-colors font-body-md">۱۶۰</button>
+<button class="py-2 border border-outline-variant text-on-surface-variant rounded hover:border-secondary/50 hover:text-on-surface transition-colors font-body-md">۱۶۵</button>
+<button class="py-2 border border-outline-variant text-on-surface-variant rounded opacity-50 cursor-not-allowed font-body-md">۱۷۰</button>
+</div>
+</div>
+</div>
+<!-- CTA -->
+<a class="w-full bg-tertiary-container border border-secondary text-secondary py-4 rounded font-label-caps text-label-caps uppercase hover:bg-gradient-to-r hover:from-tertiary-container hover:to-[#241d08] transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_0_15px_rgba(201,162,39,0.1)] mb-8" href="https://t.me/chadorahmadibot" target="_blank">
+<span class="material-symbols-outlined">send</span>
+                    🛍 ثبت سفارش در تلگرام
+                </a>
+<!-- Features Details -->
+<div class="bg-surface-container p-6 rounded-lg border border-outline-variant/30 mt-auto">
+<h4 class="font-headline-sm text-lg text-on-surface mb-4">ویژگی‌های محصول</h4>
+<ul class="space-y-3 font-body-md text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span><strong>سبک و راحت:</strong> مناسب برای استفاده روزمره و طولانی مدت.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span><strong>ضد چروک:</strong> پارچه ندا با کیفیت بالا، نیاز به اتوکشی مداوم ندارد.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span><strong>مشکی عمیق:</strong> رنگ ثابت و کاملا مشکی که با شستشو بور نمی‌شود.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span><strong>برش دقیق:</strong> طراحی ارگونومیک برای آزادی عمل بیشتر در حرکت.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Description Section (Bento Style) -->
+<div class="mt-stack-lg border-t border-outline-variant pt-stack-md">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-secondary mb-6">هنر دوخت و پارچه</h2>
+<p class="font-body-md text-on-surface-variant leading-relaxed mb-4 text-justify">
+                        چادر خبرنگاری یکی از محبوب‌ترین مدل‌ها برای بانوانی است که در کنار حفظ حجاب کامل، به دنبال راحتی و آزادی عمل در فعالیت‌های اجتماعی هستند. این چادر با طراحی خاص خود، بدون نیاز به کش رو سر ثابت می‌ماند و دست‌ها برای انجام کارها کاملا آزاد هستند.
+                    </p>
+<p class="font-body-md text-on-surface-variant leading-relaxed text-justify">
+                        پارچه ندای استفاده شده در این محصول، وارداتی و از بالاترین درجه کیفی برخوردار است. لطافت بی‌نظیر، ریزش عالی و وزن سبک آن، تجربه‌ای متفاوت از پوشش چادر را برای شما به ارمغان می‌آورد. ما در چادر سرای احمدی، با دقت در جزئیات دوخت، محصولی در خور شان بانوی ایرانی ارائه می‌دهیم.
+                    </p>
+</div>
+<div class="h-64 md:h-96 rounded-lg overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="A highly detailed macro photograph of premium black Neda chador fabric. The lighting is dramatic and low-key, illuminating the fine threads and subtle sheen of the textile, emphasizing its high quality, anti-wrinkle nature, and deep black color. The composition is abstract and luxurious, fitting a minimalist high-end brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUU4EeS_pWy3XI0HVXxVr1nt7_lWyZLeQpnr0KFONNOwAlyoSInKyISnMRcM--BGMLBdsknzy0LRwPJch7uLsN5Lpz4gXRN3_xUDPDgkYBLXNjrEbZ7BJaEjMAp6prh2CyyPZ1EhkiNsqZS23L6azOgZB_K78azMT81RxKgR9Ix01wuBeQ6K0fz0dnAAntUKYQvvblA00eJQXCId83zWVa_J-UeqVTl7syeHhHvxhnMVL0i7_uKLmr"/>
+</div>
+</div>
+</div>
+<!-- Related Products -->
+<div class="mt-stack-lg border-t border-outline-variant pt-stack-md">
+<h2 class="font-headline-sm text-headline-sm text-on-surface mb-8 text-center md:text-right">محصولات پیشنهادی</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Product Card 1 -->
+<a class="group block" href="#">
+<div class="aspect-[3/4] mb-4 overflow-hidden rounded relative bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" data-alt="A beautiful editorial shot of a traditional Iranian black chador draped elegantly on a mannequin or model. The scene is set in a dark, minimalist environment with soft, focused cinematic lighting that highlights the fabric's rich texture and deep black tone. The aesthetic is luxurious and sophisticated." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxGXI2XNhXOpqPCaJ0kBZWJ-BcIE1wZGELyrs8A95qB1oVfqF_v7Zz5hth688Lip2KBIruxgRJ1bLhjjsPxZMZ8lKwkurt3SzxZKf1hQgaG37WQOCdlsG7sT3P7z9Tc0GkWfdQY2tndM4v6wHhYei7yQsw2dc02IKXfRWJ41b7KdYC6ewEiP8uoNqp4EPrk1GdzgXEWmXjzbAjf_k5ZlrK_dUaizHUzbmAXPvRHYfHPoA71J46pKkE"/>
+</div>
+<h3 class="font-headline-sm text-lg text-on-surface mb-1 truncate">چادر جلابیب اصیل</h3>
+<p class="font-body-md text-on-surface-variant">۲,۹۰۰,۰۰۰ تومان</p>
+</a>
+<!-- Product Card 2 -->
+<a class="group block" href="#">
+<div class="aspect-[3/4] mb-4 overflow-hidden rounded relative bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" data-alt="A stylish photograph of a modern Arabic style chador in deep black, featuring subtle, elegant embroidery on the sleeves. The lighting is moody and premium, emphasizing the delicate details against a stark, dark background. The image conveys high-end Islamic fashion with a minimalist approach." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDN7yaiwj77dZ3YCw_Rjs_rRwGDSuSn_Y_Oc1tfT-AkPS51N0BeStIdB6YWswHBB5V_7xw8allf_Dp9NgXQZ-F0gS_SENlUK0zRzBROR9Gm_hhUZhpsOeJ2H7sJ99bOhPM1gOZAFwnHEue7fcAgtH7XFi9P3fKKnns6PaLYN50iWgJ6pu8yifAJ4jdd1aQoglrVxIqs_-LcsV44QCxCohGndsPy4lyUKqrf0952OSfk7JvdO4NAgheS"/>
+</div>
+<h3 class="font-headline-sm text-lg text-on-surface mb-1 truncate">چادر عربی اصیل گلدوزی</h3>
+<p class="font-body-md text-on-surface-variant">۳,۲۰۰,۰۰۰ تومان</p>
+</a>
+<!-- Product Card 3 -->
+<a class="group block" href="#">
+<div class="aspect-[3/4] mb-4 overflow-hidden rounded relative bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" data-alt="A minimalist and elegant shot of a student-style black chador, focusing on its clean lines and practical design. The fabric falls smoothly, lit by a soft, directional light that creates subtle shadows, enhancing the perception of high-quality material in a premium, dark-themed gallery setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTKRCoCVNUm0yMNyeYAOzqI8c8KVYqn4sJsq9JG51x2rjeLv0Ipskl9BPBP16h7HPQOTMVA0A71GU3R5a6KiNzTDO93WxWMd6KV3xVzf1F8qZCVyme9I4dXA7pSQywHsN7O0t9BMxC9zAz7HOMF6Nlr_ym0k3Qxce-SXe8GLP_q4agvBLNxWH7ehkasz8aWn0vFvmX7QWQygeR5yFpQyBJ_vI5VDTDL3ACLpeUycIvMCNTk7T0hQtU"/>
+</div>
+<h3 class="font-headline-sm text-lg text-on-surface mb-1 truncate">چادر دانشجویی مچ‌دار</h3>
+<p class="font-body-md text-on-surface-variant">۲,۶۰۰,۰۰۰ تومان</p>
+</a>
+<!-- Product Card 4 -->
+<a class="group block sm:hidden lg:block" href="#">
+<div class="aspect-[3/4] mb-4 overflow-hidden rounded relative bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" data-alt="A luxurious, cinematic close-up of a Lebanese style chador, highlighting the intricate cut and premium deep black fabric. The lighting is sophisticated and atmospheric, creating a sense of exclusivity and high craftsmanship typical of a luxury modest fashion brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmSQJRV0gyi3zmw7shNMuRMTOSUMUsmy2W6lM9xSp6U3hulxrLVwqFMjwpko0rWle9k9RC3DEHDA4eVLMl3k-zUnI8F4rma3faH0OoFDgxdww6LgXokrP4E9wbyJy36S0vrCPEo2ijyFkddmCeXuPPEas5NrctjrJE2a6FBbSx3dCwgI_s4W2muzxZqrmnuZPY56UxMi-fOYvOZvWU2okXlutnb2q9Iz3BWgsixarliJQUoIOq7749"/>
+</div>
+<h3 class="font-headline-sm text-lg text-on-surface mb-1 truncate">چادر لبنانی مقنعه‌دار</h3>
+<p class="font-body-md text-on-surface-variant">۲,۸۰۰,۰۰۰ تومان</p>
+</a>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant full-width mt-stack-lg">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter px-margin-mobile md:px-margin-desktop py-stack-lg max-w-container-max mx-auto">
+<!-- Brand Info -->
+<div class="flex flex-col">
+<div class="font-headline-sm text-headline-sm text-secondary mb-4">
+                    چادر سرای احمدی
+                </div>
+<p class="font-body-md text-on-surface-variant mb-6 text-sm max-w-sm">
+                    چادر اصیل ایرانی. ارائه دهنده بالاترین کیفیت پارچه و دوخت بی‌نظیر برای بانوان شیک‌پوش.
+                </p>
+<div class="font-body-md text-on-surface-variant text-sm">
+                    © ۲۰۲۴ چادر سرای احمدی. تمامی حقوق محفوظ است.
+                </div>
+</div>
+<!-- Quick Links -->
+<div class="flex flex-col md:items-center">
+<h4 class="font-label-caps text-label-caps text-secondary mb-6 uppercase tracking-widest">لینک‌های مفید</h4>
+<ul class="space-y-4 font-body-md text-sm">
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors" href="#">حریم خصوصی</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors" href="#">شرایط استفاده</a></li>
+<li><a class="text-secondary underline hover:opacity-80 transition-opacity" href="https://t.me/chadorahmadibot">ربات تلگرام</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors" href="#">پشتیبانی</a></li>
+</ul>
+</div>
+<!-- Social/Contact (Added for layout balance based on 3 cols) -->
+<div class="flex flex-col md:items-end">
+<h4 class="font-label-caps text-label-caps text-secondary mb-6 uppercase tracking-widest">ارتباط با ما</h4>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface-variant hover:border-secondary hover:text-secondary transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">send</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface-variant hover:border-secondary hover:text-secondary transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Mobile Navigation Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const closeMobileNavBtn = document.getElementById('close-mobile-nav');
+        const mobileNav = document.getElementById('mobile-nav');
+        const mobileNavOverlay = document.getElementById('mobile-nav-overlay');
+
+        function toggleMobileNav() {
+            const isOpen = !mobileNav.classList.contains('translate-x-full');
+            if (isOpen) {
+                mobileNav.classList.add('translate-x-full');
+                mobileNavOverlay.classList.add('hidden');
+                document.body.style.overflow = ''; // Restore scrolling
+            } else {
+                mobileNav.classList.remove('translate-x-full');
+                mobileNavOverlay.classList.remove('hidden');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            }
+        }
+
+        mobileMenuBtn.addEventListener('click', toggleMobileNav);
+        closeMobileNavBtn.addEventListener('click', toggleMobileNav);
+        mobileNavOverlay.addEventListener('click', toggleMobileNav);
+    </script>
+</body></html>
